@@ -16,7 +16,7 @@ MonoBehaviour:
   - name: Dialog1
     dialogs:
     - name: Scroll
-      text: '"How to become a Necromancer..."'
+      text: '"How to gain all the powers of that scroll..."'
       onShow:
         m_PersistentCalls:
           m_Calls: []
@@ -26,7 +26,19 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - name: Scroll
-      text: 'Note: If you die one more time you will be dead permanently.'
+      text: '"...pass some tests..."
+
+'
+      onShow:
+        m_PersistentCalls:
+          m_Calls: []
+    - name: Me
+      text: Hmmmm, wait... what is happening!!!
+      onShow:
+        m_PersistentCalls:
+          m_Calls: []
+    - name: Me
+      text: Aaaarrghhh!
       onShow:
         m_PersistentCalls:
           m_Calls: []
