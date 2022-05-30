@@ -16,10 +16,12 @@ public class SpellsManager : MonoBehaviour
     }
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) {
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Z)) {
             SwitchSpell(0);
-        }else if (Input.GetKeyDown(KeyCode.Alpha2)) {
+            Debug.Log("Switch to speel 1");
+        }else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.X)) {
             SwitchSpell(1);
+            Debug.Log("Switch to speel 2");
         }
     }
 

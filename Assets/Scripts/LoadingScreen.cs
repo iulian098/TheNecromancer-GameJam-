@@ -9,7 +9,7 @@ public class LoadingScreen : MonoBehaviour
     [SerializeField] bool isOpen;
     private void Awake() {
         if (Instance != null && Instance != this)
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         else
             Instance = this;
     }

@@ -39,7 +39,7 @@ public class Projectile : MonoBehaviour
 
         vfx.Stop(true, ParticleSystemStopBehavior.StopEmitting);
         Destroy(hitEffect, 1f);
-        Destroy(gameObject, 1f);
+        Destroy(this.gameObject, 1f);
     }
 
 }

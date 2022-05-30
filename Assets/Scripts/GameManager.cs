@@ -23,12 +23,12 @@ public class GameManager : MonoBehaviour {
 
     public List<IInteractable> DetectedInteractables { get => detectedInteractables; set => detectedInteractables = value; }
 
-    private void Awake() {
-        if (Instance != null && Instance != this)
-            Destroy(gameObject);
-        else
-            Instance = this;
+    void OnDestroy() {
+        Instance = null;   
+    }
 
+    private void Awake() {
+        Instance = this;
     }
 
     private void Start() {
@@ -36,8 +36,6 @@ public class GameManager : MonoBehaviour {
             player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         cinemachineCam.Follow = player.transform;
         cinemachineCam.LookAt = player.transform;
-        Debug.Log($"{cinemachineCam.name} following {cinemachineCam.Follow ? .name : 'null'}");
-        Debug.Log("[GameManager] Initialized");
         PlayerPrefs.SetInt("LastLevel", UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
     }
 

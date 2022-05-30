@@ -17,4 +17,8 @@ public class InGameMenu : MonoBehaviour
     public void BackToMainMenu() {
         LoadingScreen.Instance.LoadLevel("MainMenu");
     }
+
+    public void Retry() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

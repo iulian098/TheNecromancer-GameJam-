@@ -8004,7 +8004,7 @@ MonoBehaviour:
   footstepsClips: []
   mixerGroup: {fileID: -222663343066529437, guid: ea17b6b11f5dc9b45b9926ceea964318, type: 2}
   agent: {fileID: 5587114054590666556}
-  agroRange: 8
+  agroRange: 12.5
   attackRange: 2.5
   faceTargetDistance: 2.5
   waypoints: []
