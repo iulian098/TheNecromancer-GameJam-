@@ -1,0 +1,54 @@
+{
+    "name": "Console",
+    "maps": [
+        {
+            "name": "Console",
+            "id": "acc3496c-4f41-423c-bb1c-eaca1ccc46f8",
+            "actions": [
+                {
+                    "name": "ShowConsole",
+                    "type": "Button",
+                    "id": "f8f97fe8-d010-43c1-a456-cc600f5b2fdc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SendCmd",
+                    "type": "Button",
+                    "id": "f7bc232c-54cc-4dc7-9037-6de8d90dca31",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6767f2c9-fe8a-4b56-b9ce-3eabb56f417b",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShowConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91b11f07-57d1-468c-8cbe-22c749b8268c",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SendCmd",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

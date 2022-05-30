@@ -1,0 +1,95 @@
+Enemy:
+-Health
+-Damage
+-Attack Range
+
+Player:
+-Health
+-Mana
+-Attack Range
+-XP
+-Ability points
+
+-Staff: Range attack
+
+Map:
+https://quaternius.com/packs/ultimatemodularruins.html - Ruins LowPoly
+https://quaternius.com/packs/modulardungeon.html - Dungeon LowPoly - in use
+https://assetstore.unity.com/packages/3d/environments/dungeons/low-poly-dungeons-lite-177937 - LowPoly dungeons
+https://assetstore.unity.com/packages/3d/environments/low-poly-rock-pack-57874 - RockPack - 1 item in use
+https://assetstore.unity.com/packages/3d/environments/dungeons/ultimate-low-poly-dungeon-143535 - Ultimate Low Poly Dungeon
+
+Enemies:
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-lich-pbr-hp-polyart-91497 - Boss Maybe - in use
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/lowpoly-medieval-skeleton-free-pack-181883 - Skeletons
+https://assetstore.unity.com/packages/3d/characters/creatures/lowpoly-fantasy-monsters-pack-ver1-0-demo-98393 - Monster pack
+https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762 - In Use
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-rock-golem-pbr-hp-polyart-94707
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-grunt-pbr-hp-polyart-98187 - in use
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/stylized-lowpoly-golem-pack-163000 - Golem - in use
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/battle-wizard-poly-art-128097 - Wizard - in use
+
+Player:
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/free-low-poly-human-rpg-character-219979 - First stage? - In use
+https://assetstore.unity.com/packages/3d/characters/necromancer-19340 - Second phase
+
+
+Animations:
+https://assetstore.unity.com/packages/3d/skeleton-animations-free-217504 - Skeleton
+
+
+UI:
+https://assetstore.unity.com/packages/2d/gui/icons/free-rpg-fantasy-spell-icons-200511 - Spells
+https://assetstore.unity.com/packages/2d/gui/icons/gui-parts-159068 - Main UI - in use
+https://assetstore.unity.com/packages/2d/gui/icons/spellbook-preface-111069 - Spells - in use
+
+Font:
+
+https://www.fontspace.com/a-ape-mount-font-f53319 - in use
+
+Sound Effects:
+https://freesound.org/people/Robinhood76/sounds/612277/ - Fire loop
+https://assetstore.unity.com/packages/audio/sound-fx/weapons/demo-ancient-magic-pack-free-175093 - Ancient magic pack - In Use
+https://assetstore.unity.com/packages/audio/sound-fx/shapeforms-audio-free-sound-effects-183649
+https://assetstore.unity.com/packages/audio/sound-fx/foley/footsteps-essentials-189879 - Footsteps - in use
+
+https://opengameart.org/content/80-cc0-rpg-sfx - 80 RPG SFX
+https://opengameart.org/content/50-rpg-sound-effects - 50 RPG SFX
+https://opengameart.org/content/rpg-sound-pack - RPG Sound Pack
+https://opengameart.org/content/4-atmospheric-ghostly-loops - Athmospheric sounds
+
+https://opengameart.org/content/monster-sound-effects-2 - Monster sfx
+https://opengameart.org/content/monster-sound-effects-pack
+https://opengameart.org/content/80-cc0-creture-sfx-2 - creature sfx - In Use
+
+https://freesound.org/people/qubodup/sounds/442774/ - MagicSpell
+
+
+
+Visual Effects:
+https://assetstore.unity.com/packages/vfx/particles/spells/52-special-effects-pack-10419 - Special Effects Pack
+https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-free-109565 - Particle effects - in use
+
+
+First Level:
+-Puzzle
+-Find something precios at the end
+-You will die
+
+Second Level:
+-You will be reveived by a necromancer
+-The necromancer will make you a necromancer too
+-Will get some powers
+-Fight with enemies
+-Gain XP
+-Upgrade abilities
+
+Third level:
+-Fight some enemies
+-Fight boss
+-Boss will spawn some emenies
+-You can revive those enemies
+
+
+Swooshes used :
+25

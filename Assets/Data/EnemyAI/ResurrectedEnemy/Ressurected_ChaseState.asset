@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b203867575d5c994cbcfbfd2dacbbe03, type: 3}
+  m_Name: Ressurected_ChaseState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 66de76551b90f164fb1cda6729ae1b79, type: 2}
+  transitions:
+  - decition: {fileID: 11400000, guid: 4c35b5522c71c1047b11f5706c0e0578, type: 2}
+    trueState: {fileID: 11400000, guid: 125c66d082af51f439d29909aa8f554f, type: 2}
+    falseState: {fileID: 11400000, guid: dde61e6e3a141fb45ac484ff6b680916, type: 2}
+  - decition: {fileID: 11400000, guid: 4d03b4fdff9c60c4382f531c66a7dce5, type: 2}
+    trueState: {fileID: 11400000, guid: dde61e6e3a141fb45ac484ff6b680916, type: 2}
+    falseState: {fileID: 11400000, guid: f81b1422f0beaa44c8b559768350e1ac, type: 2}
+  sceneGizmosColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
