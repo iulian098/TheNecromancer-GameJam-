@@ -108,6 +108,7 @@ public class Enemy : Character {
             vfxPlayer.StopAll();
         if(ressurectedParticles != null)
             ressurectedParticles.gameObject.SetActive(false);
+        OnDie?.Invoke();
     }
 
     public void SetTarget(Transform target) {
