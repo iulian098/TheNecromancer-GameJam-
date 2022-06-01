@@ -38088,7 +38088,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6462318845612104807}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b3ea0491932ae294eb89845039bd8612, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.25
@@ -38263,6 +38263,13 @@ MonoBehaviour:
   - name: EarthImpact
     clip:
     - {fileID: 8300000, guid: 86f23a6654c451247a4e95b0827dd122, type: 3}
+    pitchRange: {x: 0.75, y: 1}
+    volumeRange: {x: 0.25, y: 0.45}
+    maxDistance: 15
+    source: {fileID: 919132148153504635}
+  - name: HumanDie
+    clip:
+    - {fileID: 8300000, guid: 591fd1d87128ab44780627ce994d7676, type: 3}
     pitchRange: {x: 0.75, y: 1}
     volumeRange: {x: 0.25, y: 0.45}
     maxDistance: 15
