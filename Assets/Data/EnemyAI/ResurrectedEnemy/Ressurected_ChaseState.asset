@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ressurected_ChaseState
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 11400000, guid: 66de76551b90f164fb1cda6729ae1b79, type: 2}
+  - {fileID: 11400000, guid: 7e9cd39a97b388f469b925d1575a6e31, type: 2}
   transitions:
   - decition: {fileID: 11400000, guid: 4c35b5522c71c1047b11f5706c0e0578, type: 2}
     trueState: {fileID: 11400000, guid: 125c66d082af51f439d29909aa8f554f, type: 2}

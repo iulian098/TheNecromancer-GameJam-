@@ -18,5 +18,9 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 128
+  mousePositionMask:
+    serializedVersion: 2
+    m_Bits: 512
   footstepClips: []
   enemyHealthBar: {fileID: 3169512181331165157, guid: 82c9f37012ba5b64490c9dd5ade1c3a1, type: 3}
+  movementType: 0

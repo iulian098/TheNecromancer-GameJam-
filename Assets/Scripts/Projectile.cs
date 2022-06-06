@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
 
-        if (hit || other.CompareTag("Projectile")) return;
+        if (hit || other.CompareTag("Projectile") || other.CompareTag("Ignore")) return;
 
         hit = true;
 

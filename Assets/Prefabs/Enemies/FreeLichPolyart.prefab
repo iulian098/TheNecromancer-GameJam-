@@ -9843,9 +9843,9 @@ GameObject:
   - component: {fileID: 6589993263698607088}
   - component: {fileID: 4591534374130520280}
   - component: {fileID: 2660247047233670191}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FreeLichPolyart
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

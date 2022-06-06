@@ -44,9 +44,7 @@ public class PlayerController : Character
         movementVector.x = Input.GetAxis("Horizontal");
         isAttacking = Input.GetMouseButton(0);
         movementVector.z = Input.GetAxis("Vertical");
-        //movementVector.x = pi.actions["Movement"].ReadValue<Vector2>().x;
-        //movementVector.z = pi.actions["Movement"].ReadValue<Vector2>().y;
-        //isAttacking = pi.actions["Attack"].IsPressed();
+        
         if (Input.GetKeyDown(KeyCode.Q) && specialSpellUnlocked)
             TriggerSpecialSpell();
 
@@ -99,14 +97,16 @@ public class PlayerController : Character
 
     void Rotation() {
         if (isAttacking) {
-            mousePos = Input.mousePosition;//pi.actions["MousePosition"].ReadValue<Vector2>();
+            mousePos = Input.mousePosition;
             RaycastHit hit;
             Ray r = Camera.main.ScreenPointToRay(mousePos);
 
             Vector3 worldPos = Vector3.zero;
 
-            if (Physics.Raycast(r, out hit))
+            if (Physics.Raycast(r, out hit, 50, GameManager.Instance.GameData.MousePositionMask)) {
                 worldPos = hit.point;
+                Debug.DrawLine(Camera.main.transform.position, worldPos, Color.red);
+            }
 
             Vector3 pos = worldPos - transform.position;
             pos.y = 0;

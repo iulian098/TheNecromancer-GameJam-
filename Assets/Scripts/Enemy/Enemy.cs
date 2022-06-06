@@ -104,6 +104,8 @@ public class Enemy : Character {
         enemyState.SetCurrentState(null);
         healthBar.gameObject.SetActive(false);
         anim.SetTrigger("Die");
+        if(ressurected)
+            gameObject.layer = LayerMask.NameToLayer("Default");
         if(vfxPlayer != null)
             vfxPlayer.StopAll();
         if(ressurectedParticles != null)
